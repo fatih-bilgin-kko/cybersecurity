@@ -30,6 +30,9 @@ def os_operator(funcname):
             else:
                 break
 while True:
-    print(os_operator(input()))
+    if input!="!exit":
+        print(os_operator(input()))
+    else:
+        break
 
 
